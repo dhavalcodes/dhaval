@@ -1,0 +1,22 @@
+header {
+    color: #0A0EAE;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    line-height: normal;
+}
+
+* {
+    margin-left: 4;
+    margin-right: auto;
+    
+}
+    
+
+
+.body {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+}
