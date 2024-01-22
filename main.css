@@ -27,3 +27,13 @@ header {
     padding-left: 20px; /* Adjust as needed for indentation */
     line-height: 1.5;
 }
+
+.logo-svg {
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    line-height: 0;
+}
