@@ -1,39 +1,46 @@
+/* Global styles */
+* {
+    box-sizing: border-box; /* This ensures padding and borders are included in the total width and height */
+}
+
+/* This sets the default font styles and line-height for your header and body */
+header, .body {
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
 header {
     color: #0A0EAE;
-    font-family: Inter;
     font-size: 15px;
-    font-style: normal;
-    line-height: normal;
 }
-
-* {
-    margin-left: 3;
-    margin-right: auto;
-    text-overflow: ellipsis; /* Adds an ellipsis (...) at the end of the truncated text */
-    /* Other styles... */
-}
-    
-
 
 .body {
-    font-family: Inter;
     font-size: 12px;
-    font-style: normal;
-    line-height: normal;
 }
 
+/* This ensures that the list items have proper styles */
 .body ul {
     list-style-type: disc; /* or another style like circle or square */
     padding-left: 20px; /* Adjust as needed for indentation */
     line-height: 1.5;
 }
 
+/* Styles for the logo SVG */
 .logo-svg {
     width: 60px;
     height: auto;
     cursor: pointer;
 }
 
+/* Footer styles */
 footer {
     line-height: 0;
+}
+
+/* Centering the content */
+header, .body {
+    margin: 0 auto; /* Centers the content */
+    max-width: 800px; /* You can adjust this value to set the maximum width of the content area */
+    padding: 0 20px; /* Adds padding on the sides */
 }
